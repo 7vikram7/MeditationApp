@@ -9,15 +9,11 @@
     <Import_RootNamespace>ExpenseTracker</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ExpenseTrackerPage.xaml" />
+    <None Include="$(MSBuildThisFileDirectory)Pages\App\App.xaml" />
+    <None Include="$(MSBuildThisFileDirectory)Pages\HomePage\ExpenseTrackerPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)ExpenseTrackerPage.xaml.cs">
-      <DependentUpon>ExpenseTrackerPage.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\App\App.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HomePage\ExpenseTrackerPage.xaml.cs" />
   </ItemGroup>
 </Project>
