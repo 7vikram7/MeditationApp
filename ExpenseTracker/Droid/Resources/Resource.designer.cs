@@ -1,4 +1,4 @@
-﻿namespace ExpenseTracker.Droid
+﻿namespace LandingPage.Droid
 {
 
 

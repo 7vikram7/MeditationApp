@@ -8,7 +8,7 @@ namespace ExpenseTracker
 		{
 			InitializeComponent();
 
-			MainPage = new ExpenseTrackerPage();
+			MainPage = new HomePage();
 		}
 
 		protected override void OnStart()

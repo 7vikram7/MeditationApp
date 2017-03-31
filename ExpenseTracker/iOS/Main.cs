@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace ExpenseTracker.iOS
+namespace LandingPage.iOS
 {
 	public class Application
 	{
